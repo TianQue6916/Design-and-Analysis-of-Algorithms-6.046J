@@ -22,14 +22,23 @@ LP 有许多不同的应用，例如流（flow）、最短路（shortest paths�
 令 $x_1, x_2, x_3, x_4$ 分别表示花在每个议题上的美元数。我们现在可以把该问题表述为一个 LP 问题：
 
 ```math
-\begin{aligned}
-\text{Minimize} \quad & x_1 + x_2 + x_3 + x_4 \\
-\text{Subject to} \quad
--2x_1 + 8x_2 + 0x_3 + 10x_4 &\ge 50{,}000 \quad \text{(Urban Majority)} \tag{1} \\
-5x_1 + 2x_2 + 0x_3 + 0x_4 &\ge 100{,}000 \quad \text{(Suburban Majority)} \tag{2} \\
-3x_1 - 5x_2 + 10x_3 - 2x_4 &\ge 25{,}000 \quad \text{(Rural Majority)} \tag{3} \\
-x_1, x_2, x_3, x_4 &\ge 0 \quad \text{(Can't unadvertise)} \tag{4}
-\end{aligned}
+\text{Minimize} \quad x_1 + x_2 + x_3 + x_4
+```
+
+```math
+\text{Subject to} \quad -2x_1 + 8x_2 + 0x_3 + 10x_4 \ge 50{,}000 \quad \text{(Urban Majority)} \tag{1}
+```
+
+```math
+\phantom{\text{Subject to} \quad}5x_1 + 2x_2 + 0x_3 + 0x_4 \ge 100{,}000 \quad \text{(Suburban Majority)} \tag{2}
+```
+
+```math
+\phantom{\text{Subject to} \quad}3x_1 - 5x_2 + 10x_3 - 2x_4 \ge 25{,}000 \quad \text{(Rural Majority)} \tag{3}
+```
+
+```math
+\phantom{\text{Subject to} \quad}x_1, x_2, x_3, x_4 \ge 0 \quad \text{(Can't unadvertise)} \tag{4}
 ```
 
 > <span style="color:#7f8c8d;">^1 我们将假设：在不同议题上做广告所获得的选票是**互不相交（disjoint）**的。</span>
