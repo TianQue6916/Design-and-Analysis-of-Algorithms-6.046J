@@ -1,0 +1,17 @@
+# Design and Analysis of Algorithms · MIT 6.046J
+
+> Bilingual (EN/中文) pack for MIT 6.046J: lecture notes Lec01-Lec24, recitation notes, problem sets with solutions, quizzes and final, review material, code printouts.
+
+## Lectures
+- [01-讲义](01-讲义): lec01-lec24 bilingual notes, figures stored per lecture under lecNN/fig/
+- [00-课程计划.pdf](00-课程计划.pdf): syllabus and schedule
+
+## Practice
+- [02-习题课](02-习题课): recitation notes 01-11
+- [03-习题集](03-习题集): problem sets 01-10, problems plus solutions
+- [04-考试](04-考试): Quiz 1, Quiz 2 and Final with solutions
+- [05-复习资料](05-复习资料): review handouts
+- [06-代码](06-代码): code exercise solutions as line-numbered PDFs
+
+## 备注
+- Course material copyright MIT and the original authors; Chinese notes are mixed with English originals.
