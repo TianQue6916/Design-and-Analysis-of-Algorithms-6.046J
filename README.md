@@ -39,3 +39,7 @@ MIT 6.046J *Design and Analysis of Algorithms* 课程资料整理（讲义、习
 ## 说明
 
 - 课程材料版权归 MIT 与原作者所有。
+
+---
+
+> 图片已按技能铁律 42 base64 内嵌进 md；`02-讲义/*/fig/`、`03-习题/recitation/fig/`、`04-考试/fig/`、`_superseded/**/fig/` 为源资产备份，勿删。
